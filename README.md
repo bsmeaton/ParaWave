@@ -1,7 +1,7 @@
 # ParaWave
 Ocean Wave Parameter Exporter - Calculates Averaged Wave Period and Wave Height etc for regular wave set
 
-Requires Python 3.4, numpy matplotlib. It is reccomended to use a python engineering package such as Anaconda 3.4.
+Requires Python 3.4, numpy matplotlib. It is recommended to use a python engineering package such as Anaconda 3.4.
 
 Outputs graphs and average wave height (or time dependant parameter) from a text file.
 
