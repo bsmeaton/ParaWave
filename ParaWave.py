@@ -82,7 +82,7 @@ waveperiod = np.average(np.diff(resulttimec))
 # print results
 waveperiodp = str(" Average Wave Period: " + str(waveperiod))
 print(waveperiodp)
-waveheightp = str(" Average Wave Parameter: " + str(np.abs(troughheightaverage) + crestheightaverage))
+waveheightp = str(" Average Wave Parameter: " + str(crestheightaverage - troughheightaverage))
 print (waveheightp)
 wavecrestp = str(" Average Maxima height above Datum: " + str(crestheightaverage))
 print (wavecrestp)
